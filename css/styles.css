@@ -1,0 +1,193 @@
+/* page style's */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+h1,
+h2,
+h3 {
+	font-weight: bold;
+}
+
+p {
+	color: #8f8f8f;
+	font-weight: 500;
+}
+.container-fluid {
+	padding: 7% 15%;
+}
+/* Headings */
+
+.title-heading {
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+	color: #ffff;
+}
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* page header */
+
+#title {
+	background-color: #ff4c68;
+	text-align: left;
+}
+#title .container-fluid {
+	padding-top: 2%;
+	padding-left: 15%;
+	padding-bottom: 8%;
+}
+
+.TinDog {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.title-image {
+	position: absolute;
+	transform: rotate(25deg);
+	width: 20%;
+	right: 25%;
+}
+
+/* Navbar */
+
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+}
+
+/* page-heading download Buttons */
+.btn {
+	font-size: 1.4em;
+	margin-left: 10px;
+}
+
+.fab {
+	padding-right: 5px;
+}
+
+.download-button {
+	margin: 5% 5% 5% 0;
+}
+
+/* Features page */
+#features .container-fluid {
+	padding: 0% 5%;
+}
+#features {
+	background-color: #ffff;
+	position: relative;
+}
+.feature-box {
+	padding: 10%;
+}
+
+.icon {
+	color: hsl(7, 80%, 69%);
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+	background-color: #ef8172;
+
+	color: #ffff;
+}
+.testimonial-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.testimonial-image {
+	width: 15%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press {
+	background-color: #ef8172;
+
+	padding-bottom: 3%;
+}
+.press-img {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+#pricing {
+	padding: 100px;
+}
+
+.card-btns {
+	margin-left: 0;
+}
+
+.cards {
+	padding: 3% 2%;
+}
+
+.price-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* Footer */
+
+#cta {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+
+	padding: 8% 18%;
+	background-color: #ff4c68;
+	font-size: 1.25rem;
+}
+
+.cta {
+	font-size: 3rem;
+	padding-bottom: 2%;
+}
+
+.foot-icons {
+	padding: 2% 2%;
+}
+
+/*  media queries */
+
+@media (max-width: 1221px) {
+	.title-image {
+		position: static;
+		transform: rotate(0deg);
+		width: 60%;
+		margin-left: 50%;
+	}
+}
+
+@media (max-width: 991px) {
+	.title-image {
+		position: static;
+		transform: rotate(0deg);
+		width: 60%;
+		margin-left: 0%;
+	}
+	#title {
+		text-align: center;
+	}
+}
